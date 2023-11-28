@@ -12,6 +12,7 @@ numpy
 pygsound
 wavefile
 tqdm
+gdown
 scipy
 soundfile
 librosa
