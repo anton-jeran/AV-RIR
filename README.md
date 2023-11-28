@@ -19,7 +19,7 @@ librosa
 ```
 
 ## Trained Model and Test Data
-To download the trained model and test data to appropiate folder strucutre, run the following command.
+To download the trained model and test data to the appropriate folder structure, run the following command.
 ```
 source download.sh
 ```
@@ -30,13 +30,16 @@ To run RIR estimation inference code. Go to **RIR_Estimation** and run the follo
 ```
 cd RIR_Estimation/
 bash submit_autoencoder.sh --start 2
+cd output/autoencoder/symAD_vctk_48000_hop300/test/rir/
+
 ```
 
 
-## Speech Enhancment
+## Speech Enhancement
 To run Speech Enhancement inference code. Go to **Enhancement** and run the following command. The **output** folder will be created with the outputs.
 
 ```
 cd Enhancement/
 bash submit_autoencoder.sh --start 2
+cd output/autoencoder/symAD_vctk_48000_hop300/test/clean/
 ```
