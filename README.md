@@ -26,13 +26,17 @@ source download.sh
 
 ## RIR Estimation
 To run RIR estimation inference code. Go to **RIR_Estimation** and run the following command. The **output** folder will be created with the outputs.
+
 ```
+cd RIR_Estimation/
 bash submit_autoencoder.sh --start 2
 ```
 
 
 ## Speech Enhancment
 To run Speech Enhancement inference code. Go to **Enhancement** and run the following command. The **output** folder will be created with the outputs.
+
 ```
+cd Enhancement/
 bash submit_autoencoder.sh --start 2
 ```
