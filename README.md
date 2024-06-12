@@ -1,4 +1,4 @@
-# AV-RIR: Audio-Visual Room Impulse Response Estimation 
+# AV-RIR: Audio-Visual Room Impulse Response Estimation (CVPR 2024)
 
 The inference code of our AV-RIR without CRIP. We provide two versions of our network optimized for RIR estimation and Speech enhancement. We also provide test samples to run the inference code. 
 
